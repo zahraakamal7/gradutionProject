@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>845929094565-4dakphlja33e0oe1jflfpk9fgafqbnaf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.845929094565-4dakphlja33e0oe1jflfpk9fgafqbnaf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBdJkcHQn8T5209m14O9TiNN9-FY7_h7Xw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>845929094565</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iraqi.flight-booking-sys</string>
+	<key>PROJECT_ID</key>
+	<string>flightbookingsys</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flightbookingsys.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:845929094565:ios:96dfcc6e8e54d0c0f59c4c</string>
+</dict>
+</plist>

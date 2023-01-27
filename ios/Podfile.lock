@@ -1,0 +1,177 @@
+PODS:
+  - CryptoSwift (0.15.0)
+  - Firebase/CoreOnly (8.9.0):
+    - FirebaseCore (= 8.9.0)
+  - Firebase/Messaging (8.9.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.9.0)
+  - firebase_core (1.10.6):
+    - Firebase/CoreOnly (= 8.9.0)
+    - Flutter
+  - firebase_messaging (11.2.4):
+    - Firebase/Messaging (= 8.9.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (8.9.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Logger (~> 7.6)
+  - FirebaseCoreDiagnostics (8.10.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Logger (~> 7.6)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.10.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/UserDefaults (~> 7.6)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.9.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.6)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Reachability (~> 7.6)
+    - GoogleUtilities/UserDefaults (~> 7.6)
+    - nanopb (~> 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_pusher_client (0.3.1):
+    - Flutter
+    - PusherSwift (~> 7.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.6.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.6.0)"
+  - GoogleUtilities/Reachability (7.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.6.0):
+    - GoogleUtilities/Logger
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - images_picker (0.0.1):
+    - Flutter
+    - ZLPhotoBrowser (= 4.2.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - PromisesObjC (2.0.0)
+  - PusherSwift (7.2.0):
+    - CryptoSwift (~> 0.9)
+    - ReachabilitySwift (= 4.3.0)
+    - Starscream (~> 3.0.5)
+  - ReachabilitySwift (4.3.0)
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Starscream (3.0.6)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - ZLPhotoBrowser (4.2.0):
+    - ZLPhotoBrowser/Core (= 4.2.0)
+  - ZLPhotoBrowser/Core (4.2.0)
+
+DEPENDENCIES:
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_pusher_client (from `.symlinks/plugins/flutter_pusher_client/ios`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - images_picker (from `.symlinks/plugins/images_picker/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FMDB
+    - GoogleDataTransport
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - PusherSwift
+    - ReachabilitySwift
+    - Starscream
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_pusher_client:
+    :path: ".symlinks/plugins/flutter_pusher_client/ios"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  images_picker:
+    :path: ".symlinks/plugins/images_picker/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
+  Firebase: 13d8d96499e2635428d5bf0ec675df21f95d9a95
+  firebase_core: c263d7daf1dc92fcd9895e6abdc04872b0ee07ff
+  firebase_messaging: dff5cd08781ee1de988565a83c977e435405cd7e
+  FirebaseCore: 599ee609343eaf4941bd188f85e3aa077ffe325b
+  FirebaseCoreDiagnostics: 56fb7216d87e0e6ec2feddefa9d8a392fe8b2c18
+  FirebaseInstallations: 830327b45345ffc859eaa9c17bcd5ae893fd5425
+  FirebaseMessaging: 82c4a48638f53f7b184f3cc9f6cd2cbe533ab316
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_pusher_client: c882bc29ad7af3e2d47b2c175b8252ab2ce7e9c6
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleUtilities: 684ee790a24f73ebb2d1d966e9711c203f2a4237
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  images_picker: 8508f4097cec731ab87d47564ed964aa3fe942c7
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  path_provider_ios: 7d7ce634493af4477d156294792024ec3485acd5
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  PusherSwift: a5369a01e8a9106b4897e9186265af1426726062
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  url_launcher_ios: 02f1989d4e14e998335b02b67a7590fa34f971af
+  ZLPhotoBrowser: 602d505d4f2cf7f309ce973c4353d33e85216d58
+
+PODFILE CHECKSUM: 7bd4e5e33f2b3fc2032043d98d8419adab35142a
+
+COCOAPODS: 1.11.2

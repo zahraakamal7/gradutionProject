@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "845929094565",
+    "project_id": "flightbookingsys",
+    "storage_bucket": "flightbookingsys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845929094565:android:9a581d02d2937f0cf59c4c",
+        "android_client_info": {
+          "package_name": "com.iraqi.flight_booking_sys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845929094565-avbf954hs4dt1t3emupu94v31a9c9pm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUB7jPwZAOmFgoH9MX3MfF5Ymh1hjVwlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845929094565-avbf954hs4dt1t3emupu94v31a9c9pm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
