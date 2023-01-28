@@ -190,7 +190,8 @@ class ReportController extends GetxController {
           },
         ),
       );
-      pusher.value = FlutterPusher("hello", options, enableLogging: true);
+      pusher.value =
+          FlutterPusher("school_system", options, enableLogging: true);
 
       await pusher.value!.connect(
           onConnectionStateChange: (connectionState) async {

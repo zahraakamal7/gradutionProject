@@ -67,7 +67,7 @@ class DailyTableView extends StatelessWidget {
                                                 padding:
                                                     const EdgeInsets.all(5.0),
                                                 child: Text(
-                                                  "الدرس",
+                                                  "المحاضرة",
                                                   textAlign: TextAlign.center,
                                                 ),
                                               ),

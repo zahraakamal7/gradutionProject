@@ -208,7 +208,7 @@ class MainView extends StatelessWidget {
                           },
                           dropdownSearchDecoration: InputDecoration(
                               border: InputBorder.none,
-                              labelText: "الصف",
+                              labelText: "المرحلة",
                               labelStyle: TextStyle(
                                   color: Theme.of(context)
                                       .appBarTheme
