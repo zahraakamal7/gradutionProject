@@ -177,12 +177,12 @@ class ReportController extends GetxController {
     try {
       String token = GetStorage().read<String>("token")!;
       PusherOptions options = PusherOptions(
-        host: '3.74.16.10',
+        host: '157.230.120.187',
         port: 6001,
         cluster: "mt1",
         encrypted: false,
         auth: PusherAuth(
-          'http://3.74.16.10:8009/api/broadcasting/auth',
+          'http://157.230.120.187:8000/api/broadcasting/auth',
           headers: {
             "Content-Type": "application/json",
             'accept': 'application/json',

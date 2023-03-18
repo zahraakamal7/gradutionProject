@@ -73,7 +73,7 @@ class RegisterationView extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: Image.asset(
-                      'assets/icon_no_background.png',
+                      'assets/educationloco.jpg',
                       fit: BoxFit.fill,
                     ),
                   ),
